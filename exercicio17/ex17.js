@@ -7,12 +7,11 @@ function inverterNumero(n) {
     return invertido;
 }
 
-console.log(inverterNumero(123));
+console.log(inverterNumero(120));
 
 function inverterNumero2(n){
     let invertidoString = n.toString().split("").reverse().join("");
-    let invertido = parseInt(invertidoString);
-    return invertido;
+    return invertidoString;
 }
 
-console.log(inverterNumero2(123));
+console.log(inverterNumero2(120));
